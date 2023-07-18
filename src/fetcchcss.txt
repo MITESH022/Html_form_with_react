@@ -1,0 +1,346 @@
+import React, { useEffect, useState } from 'react'
+import flipkartImage from './flipkart.png'; 
+const Second = () => {
+
+   
+
+   
+  return (
+    <>
+        <h1 className='text-center mt-2'>Flipkart Product</h1>
+        <div className='container mt-2 mb-4'>
+            <div className="row card-row">
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2<i class="fa-thin fa-star"></i></span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div className="row card-row">
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2<i class="fa-thin fa-star"></i></span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-md-2">
+                    <div className='card'>
+                        <div className="card-padd">
+                            <div className="card-body">
+                                <div className="card-img">
+                                    <img src={flipkartImage} alt="noimag"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="card-title">
+                                    POCO F5 5G (Snowstorm White, 256 GB)
+                                    </div>
+                                    <div className="card-reviewbox">
+                                        <span className='card-review'>4.2</span>
+                                        <span className='card-reviewnumber'>(3,525)</span>
+                                    </div>
+                                    <div className="card-pricebox">
+                                        <div className="productprice">
+                                        &#8377;29,999
+                                        </div>
+                                        <div className="cancleprice">
+                                       <del>&#8377;34,999</del> 
+                                        </div>
+                                        <div className='discountoffer'>
+                                            14% off
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+           
+
+
+
+
+    </>
+  )
+}
+
+export default Second

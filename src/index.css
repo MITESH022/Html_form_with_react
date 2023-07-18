@@ -1,0 +1,202 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-row{
+
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.card{
+
+  width: 250px;
+  margin-top: 15px;
+  height: 500px;
+  
+}
+.card-row{
+
+  /* margin-left: 5px; */
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.card-img{
+
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+  height: 200px;
+  
+}
+.card-img img{
+
+  width: 140px;
+  margin: 0 auto;
+  
+}
+.card-padd{
+
+  /* margin-top: 10px; */
+  /* padding: 10px; */
+}
+.card-body{
+
+  width: 250px;
+  margin-top: 10px;
+  
+  
+}
+.card-title{
+
+  margin-top: 5px;
+
+  /* max-width: 200px; */
+}
+
+.card-reviewbox{
+
+  width: 120px;
+  margin: 0 auto;
+}
+.card-review{
+
+  background-color: green;
+  color: #fff;
+  padding: 2px 12px;
+  border-radius: 5px;
+}
+.star{
+
+  font-size: 14px;
+  color: #fff;
+  
+  
+}
+.card-reviewnumber{
+
+  margin-left: 5px;
+}
+.card-pricebox{
+
+  display: flex;
+  margin-top: 5px;
+  
+}
+.productprice{
+
+  font-size: 18px;
+  /* font-weight: 100; */
+  color: #000;
+}
+.cancleprice{
+
+  margin-left: 5px;
+  
+}
+.discountoffer{
+
+  margin-left: 5px;
+}
+
+
+     /* ********* products details ********* */
+
+ .product{
+
+      /* background-color: red; */
+ }   
+ .productdetailstext{
+
+    margin-top: 70px !important;
+ } 
+ .productsmallimg{
+
+      float: left;
+ }  
+ .productsmallimg img{
+
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.5;
+ }
+ .productsmallimg img:hover{
+
+    opacity: 1;
+ }
+
+ .productimgcontianer img{
+
+    height: 500px;
+    margin-left: 10px;
+ }
+ .productimgcontianer{
+
+  /* float: right; */
+  padding: 10px;
+
+ }
+ .productdetailstext{
+
+   margin-top: 5px;
+ }
+ .productcontant{
+
+  /* display: flex; */
+  /* display: inline-block; */
+  
+ }
+ .productbrand{
+
+    font-size: 24px;
+    margin-bottom: 0;
+ }
+ .producttitle{
+
+    font-size: 24px;
+ }
+ .productreview{
+
+    background-color: green;
+    max-width: 50px;
+    color: #fff;
+    display: flex;
+    
+ }
+ .price-box{
+
+   display: flex;
+   
+   /* margin-left: 5px !important; */
+ }
+ .price{
+
+    font-size: 24px;
+    font-weight: bold;
+ }
+ .cancleprice .dell{
+
+      margin-top: 5px;
+      margin-left: 5px;
+ }
+ .discountoffer{
+
+      font-size: 18px;
+      color: green;
+ }
+.productdes .prod{
+
+      font-size: 20px;
+      
+}
+.productdes p{
+
+    max-width: 410px;
+}
+
+

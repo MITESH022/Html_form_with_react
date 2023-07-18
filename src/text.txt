@@ -1,0 +1,55 @@
+import React, { useEffect, useState } from 'react'
+
+const Second = () => {
+
+    const [product, setproduct] = useState([])
+
+    const URL = `https://dummyjson.com/products`;
+
+
+    useEffect(()=>{
+        
+        const getpro = async () =>{
+            try {
+
+                const res = await fetch(URL)
+            const data = await res.json();
+            setproduct(data.products);
+            console.log(data.products);
+                
+            } catch (error) {
+                console.log(error,"error");
+            }
+            
+    
+        }
+        getpro();
+
+    },[])
+
+   
+  return (
+    <div>
+        
+            {
+
+                  product.map((item)=>
+                <div key={item.id}>
+                    <p>productnumber:{item.id}</p>
+                    <p>title:{item.title}</p>
+                    <p>Description:{item.description}</p>
+                    <p>Price:{item.price}</p><hr/>
+
+                </div>
+                
+                )
+            }           
+
+
+
+
+    </div>
+  )
+}
+
+export default Second
